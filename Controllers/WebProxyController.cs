@@ -8,7 +8,7 @@ namespace web_hook_proxy.Controllers
     [Route("api/web_hook_proxy")]
     public class WebProxyController : ControllerBase
     {
-        private const string LOCAL_IPADDRESS = "YOUR IP ADDRESS HERE";
+        private const string LOCAL_IPADDRESS = "10.0.0.143";
 
         [HttpGet]
         [Route("{hookName}")]
